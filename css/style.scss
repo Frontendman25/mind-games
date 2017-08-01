@@ -60,13 +60,13 @@ $btn-color: #e7af10;
 		margin-top: 15px;
 	}
 	.name{
-		@include bg-img('img/user.png');
+		@include bg-img('../img/user.png');
 	}
 	.phone{
-		@include bg-img('img/phone.png');
+		@include bg-img('../img/phone.png');
 	}
 	.email{
-		@include bg-img('img/email.png');
+		@include bg-img('../img/email.png');
 	}
 	button{
 		@include submit;
@@ -134,7 +134,7 @@ h1,h2,h3,h4,h5,h6{
 /*MAIN*/
 .main{
 	@include global-margin-b;
-	background: url(/img/gestao.png) no-repeat top 48% right 42%;
+	background: url(../img/gestao.png) no-repeat top 48% right 42%;
 	background-size: 16%;
 	padding: 20px 10px;
 	line-height: 1.1;
@@ -188,13 +188,13 @@ h1,h2,h3,h4,h5,h6{
 			@include submit;
 		}
 		.name{
-			@include bg-img('/img/user.png');
+			@include bg-img('../img/user.png');
 		}
 		.phone{
-			@include bg-img('/img/phone.png');
+			@include bg-img('../img/phone.png');
 		}
 		.email{
-			@include bg-img('/img/email.png');
+			@include bg-img('../img/email.png');
 		}
 	}
 }
@@ -248,13 +248,13 @@ h1,h2,h3,h4,h5,h6{
 		@extend %form;
 	}
 	.name{
-			@include bg-img('/img/user.png');
+			@include bg-img('../img/user.png');
 		}
 	.phone{
-		@include bg-img('/img/phone.png');
+		@include bg-img('../img/phone.png');
 	}
 	.email{
-		@include bg-img('/img/email.png');
+		@include bg-img('../img/email.png');
 	}
 }
 
@@ -313,13 +313,13 @@ h1,h2,h3,h4,h5,h6{
 	.feedback-form{
 		@extend %form;
 		.name{
-			@include bg-img('/img/user.png');
+			@include bg-img('../img/user.png');
 		}
 		.phone{
-			@include bg-img('/img/phone.png');
+			@include bg-img('../img/phone.png');
 		}
 		.email{
-			@include bg-img('/img/email.png');
+			@include bg-img('../img/email.png');
 		}
 	}
 	h2{
@@ -341,7 +341,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*МЕСТО МЕРОПРИЯТИЯ*/
 .place{
-	background: url(/img/people.jpg)no-repeat center center;
+	background: url(../img/people.jpg) no-repeat center center;
 	height: 450px;
 	&-box{
 		margin-top: 120px;

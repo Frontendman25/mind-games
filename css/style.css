@@ -24,11 +24,11 @@
     .figures-form input:hover, .feedback .feedback-form input:hover {
       opacity: 1; }
   .figures-form .name, .feedback .feedback-form .name {
-    background: url("img/user.png") no-repeat bottom 8px left 0; }
+    background: url("../img/user.png") no-repeat bottom 8px left 0; }
   .figures-form .phone, .feedback .feedback-form .phone {
-    background: url("img/phone.png") no-repeat bottom 8px left 0; }
+    background: url("../img/phone.png") no-repeat bottom 8px left 0; }
   .figures-form .email, .feedback .feedback-form .email {
-    background: url("img/email.png") no-repeat bottom 8px left 0; }
+    background: url("../img/email.png") no-repeat bottom 8px left 0; }
   .figures-form button, .feedback .feedback-form button {
     font-size: 16px;
     padding: 10px 25px;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 /*MAIN*/
 .main {
   margin-bottom: 50px;
-  background: url(/img/gestao.png) no-repeat top 48% right 42%;
+  background: url(../img/gestao.png) no-repeat top 48% right 42%;
   background-size: 16%;
   padding: 20px 10px;
   line-height: 1.1; }
@@ -140,11 +140,11 @@ h1, h2, h3, h4, h5, h6 {
       color: #fff;
       border-radius: 50px; }
     .main-form .name {
-      background: url("/img/user.png") no-repeat bottom 8px left 0; }
+      background: url("../img/user.png") no-repeat bottom 8px left 0; }
     .main-form .phone {
-      background: url("/img/phone.png") no-repeat bottom 8px left 0; }
+      background: url("../img/phone.png") no-repeat bottom 8px left 0; }
     .main-form .email {
-      background: url("/img/email.png") no-repeat bottom 8px left 0; }
+      background: url("../img/email.png") no-repeat bottom 8px left 0; }
 
 /*SOMEBODY*/
 .somebody h2 {
@@ -181,11 +181,11 @@ h1, h2, h3, h4, h5, h6 {
   .figures-form {
     padding-bottom: 0; }
   .figures .name {
-    background: url("/img/user.png") no-repeat bottom 8px left 0; }
+    background: url("../img/user.png") no-repeat bottom 8px left 0; }
   .figures .phone {
-    background: url("/img/phone.png") no-repeat bottom 8px left 0; }
+    background: url("../img/phone.png") no-repeat bottom 8px left 0; }
   .figures .email {
-    background: url("/img/email.png") no-repeat bottom 8px left 0; }
+    background: url("../img/email.png") no-repeat bottom 8px left 0; }
 
 /*╨б╨Я╨Ш╨Ъ╨Х╨а╨л*/
 .speakers {
@@ -231,11 +231,11 @@ h1, h2, h3, h4, h5, h6 {
   .feedback .video-block {
     margin-bottom: 20px; }
   .feedback .feedback-form .name {
-    background: url("/img/user.png") no-repeat bottom 8px left 0; }
+    background: url("../img/user.png") no-repeat bottom 8px left 0; }
   .feedback .feedback-form .phone {
-    background: url("/img/phone.png") no-repeat bottom 8px left 0; }
+    background: url("../img/phone.png") no-repeat bottom 8px left 0; }
   .feedback .feedback-form .email {
-    background: url("/img/email.png") no-repeat bottom 8px left 0; }
+    background: url("../img/email.png") no-repeat bottom 8px left 0; }
   .feedback h2 {
     color: #444;
     font-size: 28px; }
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*╨Ь╨Х╨б╨в╨Ю ╨Ь╨Х╨а╨Ю╨Я╨а╨Ш╨п╨в╨Ш╨п*/
 .place {
-  background: url(/img/people.jpg) no-repeat center center;
+  background: url(../img/people.jpg) no-repeat center center;
   height: 450px; }
   .place-box {
     margin-top: 120px;
